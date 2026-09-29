@@ -159,7 +159,18 @@ Amor Vazio — Romântica
 
 </button>
 
+  
+<div class="controles-tempo">
 
+    <button onclick="document.getElementById('amorvazio').currentTime = Math.max(0, document.getElementById('amorvazio').currentTime - 10)">
+        ⏪ 10s
+    </button>
+
+    <button onclick="document.getElementById('amorvazio').currentTime = Math.min(document.getElementById('amorvazio').duration || Infinity, document.getElementById('amorvazio').currentTime + 10)">
+        10s ⏩
+    </button>
+
+</div>
 
 <span class="nome-da-musica">
 
@@ -221,7 +232,17 @@ Fora da Caixa
 
 </button>
 
+<div class="controles-tempo">
 
+    <button onclick="document.getElementById('amorvazio').currentTime = Math.max(0, document.getElementById('amorvazio').currentTime - 10)">
+        ⏪ 10s
+    </button>
+
+    <button onclick="document.getElementById('amorvazio').currentTime = Math.min(document.getElementById('amorvazio').duration || Infinity, document.getElementById('amorvazio').currentTime + 10)">
+        10s ⏩
+    </button>
+
+</div>
 
 <span class="nome-da-musica">
 
@@ -276,6 +297,18 @@ Funk
 <img src="images/play.png" alt="Play">
 
 </button>
+
+  <div class="controles-tempo">
+
+    <button onclick="document.getElementById('amorvazio').currentTime = Math.max(0, document.getElementById('amorvazio').currentTime - 10)">
+        ⏪ 10s
+    </button>
+
+    <button onclick="document.getElementById('amorvazio').currentTime = Math.min(document.getElementById('amorvazio').duration || Infinity, document.getElementById('amorvazio').currentTime + 10)">
+        10s ⏩
+    </button>
+
+</div>
 
 <span class="nome-da-musica">
 
